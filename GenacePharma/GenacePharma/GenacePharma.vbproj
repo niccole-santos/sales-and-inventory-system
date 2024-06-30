@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4EE4E469-4857-4A9D-B692-633596F01EFF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>GenacePharma.My.MyApplication</StartupObject>
+    <RootNamespace>GenacePharma</RootNamespace>
+    <AssemblyName>GenacePharma</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>GenacePharma.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>GenacePharma.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="accs.Designer.vb">
+      <DependentUpon>accs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="accs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admins.Designer.vb">
+      <DependentUpon>admins.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admins.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agent.Designer.vb">
+      <DependentUpon>agent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="agent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agent2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Agent2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="agentsTable.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>agentsTable.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="area.Designer.vb">
+      <DependentUpon>area.vb</DependentUpon>
+    </Compile>
+    <Compile Include="area.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="areaTable.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>areaTable.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bank.Designer.vb">
+      <DependentUpon>bank.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bank.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bankTable.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bankTable.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="branch.Designer.vb">
+      <DependentUpon>branch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="branch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clientAdd.Designer.vb">
+      <DependentUpon>clientAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clientAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clients.Designer.vb">
+      <DependentUpon>clients.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clients.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clientTable.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clientTable.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="division.Designer.vb">
+      <DependentUpon>division.vb</DependentUpon>
+    </Compile>
+    <Compile Include="division.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="divTable.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>divTable.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="divTable.vb">
+      <DependentUpon>divTable.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dueAcc.Designer.vb">
+      <DependentUpon>dueAcc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dueAcc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expire.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Expire.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenacePharmaDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenacePharmaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="invList.Designer.vb">
+      <DependentUpon>invList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="invList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="invoice.Designer.vb">
+      <DependentUpon>invoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="invoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homep.Designer.vb">
+      <DependentUpon>homep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="homep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mailin.Designer.vb">
+      <DependentUpon>mailin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mailin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="phyCou.Designer.vb">
+      <DependentUpon>phyCou.vb</DependentUpon>
+    </Compile>
+    <Compile Include="phyCou.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhyCounter.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PhyCounter.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="rece.Designer.vb">
+      <DependentUpon>rece.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rece.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="records.Designer.vb">
+      <DependentUpon>records.vb</DependentUpon>
+    </Compile>
+    <Compile Include="records.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="remindes.Designer.vb">
+      <DependentUpon>remindes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="remindes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stoAdd.Designer.vb">
+      <DependentUpon>stoAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stoAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stocks.Designer.vb">
+      <DependentUpon>stocks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stocks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StocksTibl.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StocksTibl.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="supplierAdd.Designer.vb">
+      <DependentUpon>supplierAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="supplierAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suppliers.Designer.vb">
+      <DependentUpon>suppliers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="suppliers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuppliersTable.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SuppliersTable.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="users.Designer.vb">
+      <DependentUpon>users.vb</DependentUpon>
+    </Compile>
+    <Compile Include="users.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="accs.resx">
+      <DependentUpon>accs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admins.resx">
+      <DependentUpon>admins.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="agent.resx">
+      <DependentUpon>agent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="area.resx">
+      <DependentUpon>area.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bank.resx">
+      <DependentUpon>bank.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="branch.resx">
+      <DependentUpon>branch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clientAdd.resx">
+      <DependentUpon>clientAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clients.resx">
+      <DependentUpon>clients.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="division.resx">
+      <DependentUpon>division.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dueAcc.resx">
+      <DependentUpon>dueAcc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homep.resx">
+      <DependentUpon>homep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="invList.resx">
+      <DependentUpon>invList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="invoice.resx">
+      <DependentUpon>invoice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mailin.resx">
+      <DependentUpon>mailin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="phyCou.resx">
+      <DependentUpon>phyCou.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rece.resx">
+      <DependentUpon>rece.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="records.resx">
+      <DependentUpon>records.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="remindes.resx">
+      <DependentUpon>remindes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stoAdd.resx">
+      <DependentUpon>stoAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stocks.resx">
+      <DependentUpon>stocks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierAdd.resx">
+      <DependentUpon>supplierAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suppliers.resx">
+      <DependentUpon>suppliers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="users.resx">
+      <DependentUpon>users.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Agent2.xsc">
+      <DependentUpon>Agent2.xsd</DependentUpon>
+    </None>
+    <None Include="Agent2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Agent2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Agent2.xss">
+      <DependentUpon>Agent2.xsd</DependentUpon>
+    </None>
+    <None Include="agentsTable.xsc">
+      <DependentUpon>agentsTable.xsd</DependentUpon>
+    </None>
+    <None Include="agentsTable.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>agentsTable.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="agentsTable.xss">
+      <DependentUpon>agentsTable.xsd</DependentUpon>
+    </None>
+    <None Include="areaTable.xsc">
+      <DependentUpon>areaTable.xsd</DependentUpon>
+    </None>
+    <None Include="areaTable.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>areaTable.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="areaTable.xss">
+      <DependentUpon>areaTable.xsd</DependentUpon>
+    </None>
+    <None Include="bankTable.xsc">
+      <DependentUpon>bankTable.xsd</DependentUpon>
+    </None>
+    <None Include="bankTable.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bankTable.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bankTable.xss">
+      <DependentUpon>bankTable.xsd</DependentUpon>
+    </None>
+    <None Include="clientTable.xsc">
+      <DependentUpon>clientTable.xsd</DependentUpon>
+    </None>
+    <None Include="clientTable.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clientTable.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clientTable.xss">
+      <DependentUpon>clientTable.xsd</DependentUpon>
+    </None>
+    <None Include="divTable.xsc">
+      <DependentUpon>divTable.xsd</DependentUpon>
+    </None>
+    <None Include="divTable.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>divTable.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="divTable.xss">
+      <DependentUpon>divTable.xsd</DependentUpon>
+    </None>
+    <None Include="Expire.xsc">
+      <DependentUpon>Expire.xsd</DependentUpon>
+    </None>
+    <None Include="Expire.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Expire.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Expire.xss">
+      <DependentUpon>Expire.xsd</DependentUpon>
+    </None>
+    <None Include="GenacePharmaDataSet.xsc">
+      <DependentUpon>GenacePharmaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GenacePharmaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenacePharmaDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GenacePharmaDataSet.xss">
+      <DependentUpon>GenacePharmaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="PhyCounter.xsc">
+      <DependentUpon>PhyCounter.xsd</DependentUpon>
+    </None>
+    <None Include="PhyCounter.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PhyCounter.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PhyCounter.xss">
+      <DependentUpon>PhyCounter.xsd</DependentUpon>
+    </None>
+    <None Include="StocksTibl.xsc">
+      <DependentUpon>StocksTibl.xsd</DependentUpon>
+    </None>
+    <None Include="StocksTibl.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StocksTibl.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StocksTibl.xss">
+      <DependentUpon>StocksTibl.xsd</DependentUpon>
+    </None>
+    <None Include="SuppliersTable.xsc">
+      <DependentUpon>SuppliersTable.xsd</DependentUpon>
+    </None>
+    <None Include="SuppliersTable.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SuppliersTable.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SuppliersTable.xss">
+      <DependentUpon>SuppliersTable.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clients %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\del.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delivery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\due accounts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ekis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invoice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payments.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\records.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stocks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transaction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suppliers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GenacePharma.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\genace 05.png" />
+    <None Include="Resources\calcy.png" />
+    <None Include="Resources\prient.png" />
+    <None Include="Resources\mailer.png" />
+    <None Include="Resources\attach.png" />
+    <None Include="Resources\searchna.png" />
+    <None Include="Resources\print %282%29.png" />
+    <None Include="Resources\edit %282%29.png" />
+    <None Include="Resources\add green.png" />
+    <None Include="Resources\edit orig.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

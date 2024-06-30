@@ -1,0 +1,71 @@
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\bin\Debug\GenacePharma.exe.config
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\bin\Debug\GenacePharma.accdb
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\bin\Debug\GenacePharma.exe
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\bin\Debug\GenacePharma.pdb
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\bin\Debug\GenacePharma.xml
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.vbprojResolveAssemblyReference.cache
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.accs.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.admins.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.agent.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.area.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.bank.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.branch.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.clientAdd.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.clients.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.division.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.dueAcc.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.homep.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.invList.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.invoice.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.login.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.mailin.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.Resources.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.phyCou.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.records.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.remindes.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.stoAdd.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.stocks.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.SupplierAdd.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.suppliers.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.users.resources
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.vbproj.GenerateResource.Cache
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.exe
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.xml
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.pdb
+C:\Users\CouchPotato\Documents\Visual Studio 2015\Projects\GenacePharma\GenacePharma\obj\Debug\GenacePharma.rece.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.vbproj.AssemblyReference.cache
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.accs.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.admins.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.agent.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.area.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.bank.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.branch.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.clientAdd.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.clients.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.division.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.dueAcc.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.homep.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.invList.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.invoice.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.login.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.mailin.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.Resources.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.phyCou.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.rece.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.records.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.remindes.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.stoAdd.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.stocks.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.SupplierAdd.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.suppliers.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.users.resources
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.vbproj.GenerateResource.cache
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.vbproj.CoreCompileInputs.cache
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.exe
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.xml
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\obj\Debug\GenacePharma.pdb
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\bin\Debug\GenacePharma.accdb
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\bin\Debug\GenacePharma.exe.config
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\bin\Debug\GenacePharma.exe
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\bin\Debug\GenacePharma.pdb
+C:\Users\nxcos\Desktop\codes\GenacePharma\GenacePharma\bin\Debug\GenacePharma.xml

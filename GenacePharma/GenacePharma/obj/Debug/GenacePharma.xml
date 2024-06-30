@@ -1,0 +1,856 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GenacePharma
+</name>
+</assembly>
+<members>
+<member name="T:GenacePharma.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.add__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.add_green">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.attach">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.calcy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.check">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.clients__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.delivery">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.due_accounts">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.ekis">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.genace_05">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.invoice">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.mailer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.payments">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.prient">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.print__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.records">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.reports">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.searchna">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.stocks">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.suppliers">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.transaction">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GenacePharma.My.Resources.Resources.user">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:GenacePharma.Agent2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GenacePharma.Agent2.AgentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GenacePharma.Agent2.AgentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GenacePharma.Agent2.AgentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GenacePharma.Agent2TableAdapters.AgentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GenacePharma.Agent2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GenacePharma.Agent2TableAdapters.TableAdapterManager.UpdateUpdatedRows(GenacePharma.Agent2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.Agent2TableAdapters.TableAdapterManager.UpdateInsertedRows(GenacePharma.Agent2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.Agent2TableAdapters.TableAdapterManager.UpdateDeletedRows(GenacePharma.Agent2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GenacePharma.Agent2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GenacePharma.Agent2TableAdapters.TableAdapterManager.UpdateAll(GenacePharma.Agent2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GenacePharma.Agent2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GenacePharma.Agent2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GenacePharma.agentsTable">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GenacePharma.agentsTable.AgentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GenacePharma.agentsTable.AgentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GenacePharma.agentsTable.AgentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GenacePharma.agentsTableTableAdapters.AgentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GenacePharma.agentsTableTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GenacePharma.agentsTableTableAdapters.TableAdapterManager.UpdateUpdatedRows(GenacePharma.agentsTable,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.agentsTableTableAdapters.TableAdapterManager.UpdateInsertedRows(GenacePharma.agentsTable,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.agentsTableTableAdapters.TableAdapterManager.UpdateDeletedRows(GenacePharma.agentsTable,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GenacePharma.agentsTableTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GenacePharma.agentsTableTableAdapters.TableAdapterManager.UpdateAll(GenacePharma.agentsTable)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GenacePharma.agentsTableTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GenacePharma.agentsTableTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GenacePharma.areaTable">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GenacePharma.areaTable.AreaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GenacePharma.areaTable.AreaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GenacePharma.areaTable.AreaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GenacePharma.areaTableTableAdapters.AreaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GenacePharma.areaTableTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GenacePharma.areaTableTableAdapters.TableAdapterManager.UpdateUpdatedRows(GenacePharma.areaTable,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.areaTableTableAdapters.TableAdapterManager.UpdateInsertedRows(GenacePharma.areaTable,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.areaTableTableAdapters.TableAdapterManager.UpdateDeletedRows(GenacePharma.areaTable,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GenacePharma.areaTableTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GenacePharma.areaTableTableAdapters.TableAdapterManager.UpdateAll(GenacePharma.areaTable)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GenacePharma.areaTableTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GenacePharma.areaTableTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GenacePharma.bankTable">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GenacePharma.bankTable.BanksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GenacePharma.bankTable.BanksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GenacePharma.bankTable.BanksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GenacePharma.bankTableTableAdapters.BanksTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GenacePharma.bankTableTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GenacePharma.bankTableTableAdapters.TableAdapterManager.UpdateUpdatedRows(GenacePharma.bankTable,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.bankTableTableAdapters.TableAdapterManager.UpdateInsertedRows(GenacePharma.bankTable,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.bankTableTableAdapters.TableAdapterManager.UpdateDeletedRows(GenacePharma.bankTable,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GenacePharma.bankTableTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GenacePharma.bankTableTableAdapters.TableAdapterManager.UpdateAll(GenacePharma.bankTable)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GenacePharma.bankTableTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GenacePharma.bankTableTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GenacePharma.clientTable">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GenacePharma.clientTable.ClientsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GenacePharma.clientTable.ClientsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GenacePharma.clientTable.ClientsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GenacePharma.clientTableTableAdapters.ClientsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GenacePharma.clientTableTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GenacePharma.clientTableTableAdapters.TableAdapterManager.UpdateUpdatedRows(GenacePharma.clientTable,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.clientTableTableAdapters.TableAdapterManager.UpdateInsertedRows(GenacePharma.clientTable,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.clientTableTableAdapters.TableAdapterManager.UpdateDeletedRows(GenacePharma.clientTable,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GenacePharma.clientTableTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GenacePharma.clientTableTableAdapters.TableAdapterManager.UpdateAll(GenacePharma.clientTable)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GenacePharma.clientTableTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GenacePharma.clientTableTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GenacePharma.divTable">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GenacePharma.divTable.DivisionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GenacePharma.divTable.DivisionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GenacePharma.divTable.DivisionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GenacePharma.divTableTableAdapters.DivisionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GenacePharma.divTableTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GenacePharma.divTableTableAdapters.TableAdapterManager.UpdateUpdatedRows(GenacePharma.divTable,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.divTableTableAdapters.TableAdapterManager.UpdateInsertedRows(GenacePharma.divTable,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.divTableTableAdapters.TableAdapterManager.UpdateDeletedRows(GenacePharma.divTable,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GenacePharma.divTableTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GenacePharma.divTableTableAdapters.TableAdapterManager.UpdateAll(GenacePharma.divTable)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GenacePharma.divTableTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GenacePharma.divTableTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GenacePharma.Expire">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GenacePharma.Expire.StocksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GenacePharma.Expire.StocksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GenacePharma.Expire.StocksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GenacePharma.ExpireTableAdapters.StocksTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GenacePharma.ExpireTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GenacePharma.ExpireTableAdapters.TableAdapterManager.UpdateUpdatedRows(GenacePharma.Expire,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.ExpireTableAdapters.TableAdapterManager.UpdateInsertedRows(GenacePharma.Expire,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.ExpireTableAdapters.TableAdapterManager.UpdateDeletedRows(GenacePharma.Expire,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GenacePharma.ExpireTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GenacePharma.ExpireTableAdapters.TableAdapterManager.UpdateAll(GenacePharma.Expire)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GenacePharma.ExpireTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GenacePharma.ExpireTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GenacePharma.GenacePharmaDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GenacePharma.GenacePharmaDataSet.BranchDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GenacePharma.GenacePharmaDataSet.BranchRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GenacePharma.GenacePharmaDataSet.BranchRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GenacePharma.GenacePharmaDataSetTableAdapters.BranchTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GenacePharma.GenacePharmaDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GenacePharma.GenacePharmaDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(GenacePharma.GenacePharmaDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.GenacePharmaDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(GenacePharma.GenacePharmaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.GenacePharmaDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(GenacePharma.GenacePharmaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GenacePharma.GenacePharmaDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GenacePharma.GenacePharmaDataSetTableAdapters.TableAdapterManager.UpdateAll(GenacePharma.GenacePharmaDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GenacePharma.GenacePharmaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GenacePharma.GenacePharmaDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GenacePharma.PhyCounter">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GenacePharma.PhyCounter.PhysicalCountDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GenacePharma.PhyCounter.PhysicalCountRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GenacePharma.PhyCounter.PhysicalCountRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GenacePharma.PhyCounterTableAdapters.PhysicalCountTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GenacePharma.PhyCounterTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GenacePharma.PhyCounterTableAdapters.TableAdapterManager.UpdateUpdatedRows(GenacePharma.PhyCounter,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.PhyCounterTableAdapters.TableAdapterManager.UpdateInsertedRows(GenacePharma.PhyCounter,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.PhyCounterTableAdapters.TableAdapterManager.UpdateDeletedRows(GenacePharma.PhyCounter,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GenacePharma.PhyCounterTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GenacePharma.PhyCounterTableAdapters.TableAdapterManager.UpdateAll(GenacePharma.PhyCounter)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GenacePharma.PhyCounterTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GenacePharma.PhyCounterTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GenacePharma.StocksTibl">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GenacePharma.StocksTibl.StocksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GenacePharma.StocksTibl.StocksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GenacePharma.StocksTibl.StocksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GenacePharma.StocksTiblTableAdapters.StocksTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GenacePharma.StocksTiblTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GenacePharma.StocksTiblTableAdapters.TableAdapterManager.UpdateUpdatedRows(GenacePharma.StocksTibl,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.StocksTiblTableAdapters.TableAdapterManager.UpdateInsertedRows(GenacePharma.StocksTibl,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.StocksTiblTableAdapters.TableAdapterManager.UpdateDeletedRows(GenacePharma.StocksTibl,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GenacePharma.StocksTiblTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GenacePharma.StocksTiblTableAdapters.TableAdapterManager.UpdateAll(GenacePharma.StocksTibl)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GenacePharma.StocksTiblTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GenacePharma.StocksTiblTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GenacePharma.SuppliersTable">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GenacePharma.SuppliersTable.SuppliersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GenacePharma.SuppliersTable.SuppliersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GenacePharma.SuppliersTable.SuppliersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GenacePharma.SuppliersTableTableAdapters.SuppliersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GenacePharma.SuppliersTableTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GenacePharma.SuppliersTableTableAdapters.TableAdapterManager.UpdateUpdatedRows(GenacePharma.SuppliersTable,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.SuppliersTableTableAdapters.TableAdapterManager.UpdateInsertedRows(GenacePharma.SuppliersTable,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GenacePharma.SuppliersTableTableAdapters.TableAdapterManager.UpdateDeletedRows(GenacePharma.SuppliersTable,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GenacePharma.SuppliersTableTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GenacePharma.SuppliersTableTableAdapters.TableAdapterManager.UpdateAll(GenacePharma.SuppliersTable)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GenacePharma.SuppliersTableTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GenacePharma.SuppliersTableTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

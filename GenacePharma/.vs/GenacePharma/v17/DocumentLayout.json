@@ -1,0 +1,259 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|c:\\users\\nxcos\\desktop\\codes\\genacepharma\\genacepharma\\stocks.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|solutionrelative:genacepharma\\stocks.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|c:\\users\\nxcos\\desktop\\codes\\genacepharma\\genacepharma\\remindes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|solutionrelative:genacepharma\\remindes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|c:\\users\\nxcos\\desktop\\codes\\genacepharma\\genacepharma\\remindes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|solutionrelative:genacepharma\\remindes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|c:\\users\\nxcos\\desktop\\codes\\genacepharma\\genacepharma\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|solutionrelative:genacepharma\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|c:\\users\\nxcos\\desktop\\codes\\genacepharma\\genacepharma\\stoadd.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|solutionrelative:genacepharma\\stoadd.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|c:\\users\\nxcos\\desktop\\codes\\genacepharma\\genacepharma\\rece.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|solutionrelative:genacepharma\\rece.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|c:\\users\\nxcos\\desktop\\codes\\genacepharma\\genacepharma\\phycou.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|solutionrelative:genacepharma\\phycou.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|c:\\users\\nxcos\\desktop\\codes\\genacepharma\\genacepharma\\invoice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|solutionrelative:genacepharma\\invoice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|c:\\users\\nxcos\\desktop\\codes\\genacepharma\\genacepharma\\division.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|solutionrelative:genacepharma\\division.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|c:\\users\\nxcos\\desktop\\codes\\genacepharma\\genacepharma\\agent.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|solutionrelative:genacepharma\\agent.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|c:\\users\\nxcos\\desktop\\codes\\genacepharma\\genacepharma\\module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|solutionrelative:genacepharma\\module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|c:\\users\\nxcos\\desktop\\codes\\genacepharma\\genacepharma\\my project\\application.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|solutionrelative:genacepharma\\my project\\application.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nxcos\\AppData\\Local\\Temp\\.vsdbgsrc\\b9f2c8f929544febecb3f88166e8b9cfe15492811552899fb7644e008a61c53a\\WindowsFormsApplicationBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\genacepharma\\agent.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{4EE4E469-4857-4A9D-B692-633596F01EFF}|GenacePharma\\GenacePharma.vbproj|solutionrelative:genacepharma\\agent.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "remindes.vb",
+              "DocumentMoniker": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\remindes.vb",
+              "RelativeDocumentMoniker": "GenacePharma\\remindes.vb",
+              "ToolTip": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\remindes.vb",
+              "RelativeToolTip": "GenacePharma\\remindes.vb",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAwCsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-30T15:57:57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "remindes.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\remindes.vb",
+              "RelativeDocumentMoniker": "GenacePharma\\remindes.vb",
+              "ToolTip": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\remindes.vb [Design]",
+              "RelativeToolTip": "GenacePharma\\remindes.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-30T15:57:48.631Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "stocks.vb",
+              "DocumentMoniker": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\stocks.vb",
+              "RelativeDocumentMoniker": "GenacePharma\\stocks.vb",
+              "ToolTip": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\stocks.vb",
+              "RelativeToolTip": "GenacePharma\\stocks.vb",
+              "ViewState": "AQIAACUBAAAAAAAAAADwvzYBAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-30T15:28:14.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "stoAdd.vb",
+              "DocumentMoniker": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\stoAdd.vb",
+              "RelativeDocumentMoniker": "GenacePharma\\stoAdd.vb",
+              "ToolTip": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\stoAdd.vb",
+              "RelativeToolTip": "GenacePharma\\stoAdd.vb",
+              "ViewState": "AQIAALYBAAAAAAAAAADgv80BAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-30T15:26:52.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "rece.vb",
+              "DocumentMoniker": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\rece.vb",
+              "RelativeDocumentMoniker": "GenacePharma\\rece.vb",
+              "ToolTip": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\rece.vb",
+              "RelativeToolTip": "GenacePharma\\rece.vb",
+              "ViewState": "AQIAABIAAAAAAAAAAADgvx8AAACJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-30T15:26:44.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "phyCou.vb",
+              "DocumentMoniker": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\phyCou.vb",
+              "RelativeDocumentMoniker": "GenacePharma\\phyCou.vb",
+              "ToolTip": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\phyCou.vb",
+              "RelativeToolTip": "GenacePharma\\phyCou.vb",
+              "ViewState": "AQIAAEYAAAAAAAAAAADgv1MAAACeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-30T15:26:21.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "invoice.vb",
+              "DocumentMoniker": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\invoice.vb",
+              "RelativeDocumentMoniker": "GenacePharma\\invoice.vb",
+              "ToolTip": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\invoice.vb",
+              "RelativeToolTip": "GenacePharma\\invoice.vb",
+              "ViewState": "AQIAABMAAAAAAAAAAAASwCEAAACJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-30T15:26:09.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "division.vb",
+              "DocumentMoniker": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\division.vb",
+              "RelativeDocumentMoniker": "GenacePharma\\division.vb",
+              "ToolTip": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\division.vb",
+              "RelativeToolTip": "GenacePharma\\division.vb",
+              "ViewState": "AQIAAAsAAAAAAAAAAAArwBgAAACeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-30T15:25:55.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "agent.vb",
+              "DocumentMoniker": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\agent.vb",
+              "RelativeDocumentMoniker": "GenacePharma\\agent.vb",
+              "ToolTip": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\agent.vb",
+              "RelativeToolTip": "GenacePharma\\agent.vb",
+              "ViewState": "AQIAAAUAAAAAAAAAAAArwBIAAACeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-30T15:25:45.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.vb",
+              "DocumentMoniker": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\login.vb",
+              "RelativeDocumentMoniker": "GenacePharma\\login.vb",
+              "ToolTip": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\login.vb",
+              "RelativeToolTip": "GenacePharma\\login.vb",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAUwLkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-30T15:21:46.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WindowsFormsApplicationBase.cs",
+              "DocumentMoniker": "C:\\Users\\nxcos\\AppData\\Local\\Temp\\.vsdbgsrc\\b9f2c8f929544febecb3f88166e8b9cfe15492811552899fb7644e008a61c53a\\WindowsFormsApplicationBase.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b9f2c8f929544febecb3f88166e8b9cfe15492811552899fb7644e008a61c53a\\WindowsFormsApplicationBase.cs",
+              "ToolTip": "C:\\Users\\nxcos\\AppData\\Local\\Temp\\.vsdbgsrc\\b9f2c8f929544febecb3f88166e8b9cfe15492811552899fb7644e008a61c53a\\WindowsFormsApplicationBase.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b9f2c8f929544febecb3f88166e8b9cfe15492811552899fb7644e008a61c53a\\WindowsFormsApplicationBase.cs [Read Only]",
+              "ViewState": "AQIAAFwCAAAAAAAAAAAiwG8CAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T15:20:38.374Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Application.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\My Project\\Application.Designer.vb",
+              "RelativeDocumentMoniker": "GenacePharma\\My Project\\Application.Designer.vb",
+              "ToolTip": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\My Project\\Application.Designer.vb",
+              "RelativeToolTip": "GenacePharma\\My Project\\Application.Designer.vb",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-30T15:19:57.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Module1.vb",
+              "DocumentMoniker": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\Module1.vb",
+              "RelativeDocumentMoniker": "GenacePharma\\Module1.vb",
+              "ToolTip": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\Module1.vb",
+              "RelativeToolTip": "GenacePharma\\Module1.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAACiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-19T13:44:25.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "agent.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\agent.vb",
+              "RelativeDocumentMoniker": "GenacePharma\\agent.vb",
+              "ToolTip": "C:\\Users\\nxcos\\Desktop\\codes\\GenacePharma\\GenacePharma\\agent.vb [Design]",
+              "RelativeToolTip": "GenacePharma\\agent.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-19T13:44:16.546Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
